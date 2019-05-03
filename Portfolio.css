@@ -6,6 +6,12 @@ body {
 
 }
 
+img,
+picture,
+video,
+embed {
+   max-width: 100%;
+}
 
 h1 {
     font: bold 100% Arial, Helvetica, sans-serif;
@@ -58,7 +64,7 @@ table{
 }
 
 #lateral {
-    width: 400px;
+    width: 300px;
     float: right;
    animation: 10s linear 0s normal none infinite change2;
 }
@@ -99,7 +105,7 @@ table{
     #lateral {
         width: 30%;
     }
-s
+
 }
 
 
@@ -129,12 +135,26 @@ s
     }
 
     #lateral {        
-        display: none;
+        display: auto;
     }
 
 }
 
+@media screen and(max-width: 320px) {
 
+ #cabecalho {
+        height: auto;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    #lateral {        
+        display: auto;
+    }
+
+}
 
 p {
   display: inline;
