@@ -1,0 +1,141 @@
+body {
+    font: 150% Arial, Helvetica, sans-serif;
+    background-image: url("imagens/Fundo3.jpg");
+    background-size: 100%;
+    background-attachment: fixed;  
+
+}
+
+/* 150% do tamanho original "pai"  */
+
+
+h1 {
+    font: bold 100% Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h2{
+    font: bold 90% Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h3{
+    font: bold 80% Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h4{
+    font: bold 70% Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h5{
+    font: bold 60% Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+table{
+    font: bold 80% Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#pagina {
+    padding: 5px;
+    width: 960px;
+    /* tamanho mais comum usado */
+    margin: 20px auto;
+}
+
+#cabecalho {
+    height: 190px;    
+    background: -webkit-gradient(linear, center top, center bottom);
+    background-image: url("imagens/Nome.png");
+    background-size: 100%;
+
+}
+
+#conteudo {
+    width: 400px;
+    float: left;
+    
+    
+}
+
+#lateral {
+    width: 400px;
+    float: right;
+   
+}
+
+#rodape {
+    clear: both;
+    text-align: center; 
+}
+
+#cabecalho,
+#conteudo,
+#lateral {
+    margin-bottom: 5px;
+}
+
+
+#pagina,
+#cabecalho,
+#conteudo,
+#lateral,
+#rodape {
+    border: solid 1px #cd0000;
+}
+
+
+/* Media queries/* 
+
+/*  980px ou menor */
+@media screen and (max-width: 980px) {
+
+    #pagina {
+        width: 94%;
+    }
+
+    #conteudo {
+        width: 65%;
+    }
+
+    #lateral {
+        width: 30%;
+    }
+s
+}
+
+/* 700px ou menor  */
+@media screen and (max-width: 700px) {
+
+    #conteudo {
+        width: auto;
+        float: none;
+    }
+
+    #lateral {
+        width: auto;
+        float: none;
+    }
+
+}
+
+/*  480px or menor  */
+@media screen and (max-width: 480px) {
+
+    #cabecalho {
+        height: auto;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #lateral {
+        /* nao mostra a lateral */
+        display: none;
+    }
+
+}
