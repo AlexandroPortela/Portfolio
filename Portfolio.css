@@ -45,7 +45,6 @@ table{
 
 #cabecalho {
     height: 190px;    
-    background: -webkit-gradient(linear, center top, center bottom);
     background-image: url("imagens/Nome.png");
     background-size: 100%;
     
