@@ -39,8 +39,7 @@ table{
 
 #pagina {
     padding: 5px;
-    width: 960px;
-    /* tamanho mais comum usado */
+    width: 960px;    
     margin: 20px auto;
 }
 
@@ -104,7 +103,7 @@ table{
 s
 }
 
-/* 700px ou menor  */
+
 @media screen and (max-width: 700px) {
 
     #conteudo {
@@ -130,8 +129,7 @@ s
         font-size: 24px;
     }
 
-    #lateral {
-        /* nao mostra a lateral */
+    #lateral {        
         display: none;
     }
 
